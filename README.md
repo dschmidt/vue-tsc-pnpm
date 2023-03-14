@@ -16,7 +16,7 @@ Error: Cannot find module 'dschmidt-tsconfig'
 ```
 
 By adding the following lines
-```
+```typescript
 // Workaround: https://github.com/pnpm/pnpm/issues/5237
 if (process?.env?.npm_config_user_agent?.startsWith('pnpm/')) {
     extendsPath = `./node_modules/${extendsPath}/package.json`;
