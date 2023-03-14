@@ -2,7 +2,7 @@
 
 This is a little demo project that shows that TypeScript config resolution is broken for `pnpm` workspace packages in `vue-tsc`.
 
-Just run `pnpm check` and it should give you an error like this:
+Just run `pnpm install` and `pnpm check` and the latter should give you an error like this:
 
 
 ```
